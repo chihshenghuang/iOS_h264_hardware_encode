@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40C5F911CBF340400C4C36F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C5F901CBF340400C4C36F /* main.m */; };
+		C40C5F941CBF340400C4C36F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C5F931CBF340400C4C36F /* AppDelegate.m */; };
+		C40C5F971CBF340400C4C36F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C5F961CBF340400C4C36F /* ViewController.m */; };
+		C40C5F9A1CBF340400C4C36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40C5F981CBF340400C4C36F /* Main.storyboard */; };
+		C40C5F9D1CBF340400C4C36F /* iOS_H264Encode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C40C5F9B1CBF340400C4C36F /* iOS_H264Encode.xcdatamodeld */; };
+		C40C5F9F1CBF340400C4C36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40C5F9E1CBF340400C4C36F /* Assets.xcassets */; };
+		C40C5FA21CBF340400C4C36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40C5FA01CBF340400C4C36F /* LaunchScreen.storyboard */; };
+		C40C5FAA1CBF3CB400C4C36F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C5FA91CBF3CB400C4C36F /* VideoToolbox.framework */; };
+		C40C5FAD1CBF7C6900C4C36F /* VideoEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C5FAC1CBF7C6900C4C36F /* VideoEncode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C40C5F8C1CBF340400C4C36F /* iOS_H264Encode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_H264Encode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40C5F901CBF340400C4C36F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40C5F921CBF340400C4C36F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40C5F931CBF340400C4C36F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40C5F951CBF340400C4C36F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40C5F961CBF340400C4C36F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C40C5F991CBF340400C4C36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40C5F9C1CBF340400C4C36F /* iOS_H264Encode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_H264Encode.xcdatamodel; sourceTree = "<group>"; };
+		C40C5F9E1CBF340400C4C36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40C5FA11CBF340400C4C36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40C5FA31CBF340400C4C36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40C5FA91CBF3CB400C4C36F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		C40C5FAB1CBF7C6900C4C36F /* VideoEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncode.h; sourceTree = "<group>"; };
+		C40C5FAC1CBF7C6900C4C36F /* VideoEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40C5F891CBF340400C4C36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40C5FAA1CBF3CB400C4C36F /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40C5F831CBF340400C4C36F = {
+			isa = PBXGroup;
+			children = (
+				C40C5F8E1CBF340400C4C36F /* iOS_H264Encode */,
+				C40C5F8D1CBF340400C4C36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40C5F8D1CBF340400C4C36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40C5F8C1CBF340400C4C36F /* iOS_H264Encode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40C5F8E1CBF340400C4C36F /* iOS_H264Encode */ = {
+			isa = PBXGroup;
+			children = (
+				C40C5F921CBF340400C4C36F /* AppDelegate.h */,
+				C40C5F931CBF340400C4C36F /* AppDelegate.m */,
+				C40C5F951CBF340400C4C36F /* ViewController.h */,
+				C40C5F961CBF340400C4C36F /* ViewController.m */,
+				C40C5FAB1CBF7C6900C4C36F /* VideoEncode.h */,
+				C40C5FAC1CBF7C6900C4C36F /* VideoEncode.m */,
+				C40C5F981CBF340400C4C36F /* Main.storyboard */,
+				C40C5F9E1CBF340400C4C36F /* Assets.xcassets */,
+				C40C5FA01CBF340400C4C36F /* LaunchScreen.storyboard */,
+				C40C5FA31CBF340400C4C36F /* Info.plist */,
+				C40C5F9B1CBF340400C4C36F /* iOS_H264Encode.xcdatamodeld */,
+				C40C5F8F1CBF340400C4C36F /* Supporting Files */,
+			);
+			path = iOS_H264Encode;
+			sourceTree = "<group>";
+		};
+		C40C5F8F1CBF340400C4C36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40C5FA91CBF3CB400C4C36F /* VideoToolbox.framework */,
+				C40C5F901CBF340400C4C36F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40C5F8B1CBF340400C4C36F /* iOS_H264Encode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40C5FA61CBF340400C4C36F /* Build configuration list for PBXNativeTarget "iOS_H264Encode" */;
+			buildPhases = (
+				C40C5F881CBF340400C4C36F /* Sources */,
+				C40C5F891CBF340400C4C36F /* Frameworks */,
+				C40C5F8A1CBF340400C4C36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_H264Encode;
+			productName = iOS_H264Encode;
+			productReference = C40C5F8C1CBF340400C4C36F /* iOS_H264Encode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40C5F841CBF340400C4C36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NTU;
+				TargetAttributes = {
+					C40C5F8B1CBF340400C4C36F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C40C5F871CBF340400C4C36F /* Build configuration list for PBXProject "iOS_H264Encode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40C5F831CBF340400C4C36F;
+			productRefGroup = C40C5F8D1CBF340400C4C36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40C5F8B1CBF340400C4C36F /* iOS_H264Encode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40C5F8A1CBF340400C4C36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40C5FA21CBF340400C4C36F /* LaunchScreen.storyboard in Resources */,
+				C40C5F9F1CBF340400C4C36F /* Assets.xcassets in Resources */,
+				C40C5F9A1CBF340400C4C36F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40C5F881CBF340400C4C36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40C5FAD1CBF7C6900C4C36F /* VideoEncode.m in Sources */,
+				C40C5F971CBF340400C4C36F /* ViewController.m in Sources */,
+				C40C5F941CBF340400C4C36F /* AppDelegate.m in Sources */,
+				C40C5F911CBF340400C4C36F /* main.m in Sources */,
+				C40C5F9D1CBF340400C4C36F /* iOS_H264Encode.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C40C5F981CBF340400C4C36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40C5F991CBF340400C4C36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40C5FA01CBF340400C4C36F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40C5FA11CBF340400C4C36F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40C5FA41CBF340400C4C36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40C5FA51CBF340400C4C36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40C5FA71CBF340400C4C36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_H264Encode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-H264Encode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C40C5FA81CBF340400C4C36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_H264Encode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-H264Encode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40C5F871CBF340400C4C36F /* Build configuration list for PBXProject "iOS_H264Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40C5FA41CBF340400C4C36F /* Debug */,
+				C40C5FA51CBF340400C4C36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40C5FA61CBF340400C4C36F /* Build configuration list for PBXNativeTarget "iOS_H264Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40C5FA71CBF340400C4C36F /* Debug */,
+				C40C5FA81CBF340400C4C36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C40C5F9B1CBF340400C4C36F /* iOS_H264Encode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C40C5F9C1CBF340400C4C36F /* iOS_H264Encode.xcdatamodel */,
+			);
+			currentVersion = C40C5F9C1CBF340400C4C36F /* iOS_H264Encode.xcdatamodel */;
+			path = iOS_H264Encode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C40C5F841CBF340400C4C36F /* Project object */;
+}
